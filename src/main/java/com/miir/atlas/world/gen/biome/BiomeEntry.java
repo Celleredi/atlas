@@ -17,11 +17,11 @@ public class BiomeEntry {
 
     private final Optional<RegistryEntry<Biome>> biome;
     private final Optional<List<RegistryEntry<Biome>>> priority;
-    private final int color;
+    private final BiomeColor color;
 
     private final RegistryEntry<Biome> topBiome;
 
-    public BiomeEntry(Optional<RegistryEntry<Biome>> biome, Optional<List<RegistryEntry<Biome>>> priority, int color) {
+    public BiomeEntry(Optional<RegistryEntry<Biome>> biome, Optional<List<RegistryEntry<Biome>>> priority, BiomeColor color) {
         this.biome = biome;
         this.priority = priority;
         this.color = color;
@@ -31,7 +31,7 @@ public class BiomeEntry {
     public static final Codec<BiomeEntry> CODEC = RecordCodecBuilder.create((instance) -> instance.group(
             Biome.REGISTRY_CODEC.optionalFieldOf("biome").forGetter(BiomeEntry::getBiome),
             PRIORITY_CODEC.listOf().optionalFieldOf("priority").forGetter(BiomeEntry::getPriority),
-            Codec.INT.fieldOf("color").forGetter(BiomeEntry::getColor)
+            BiomeColor.CODEC.fieldOf("color").forGetter(BiomeEntry::getColor)
     ).apply(instance, BiomeEntry::new));
 
     public RegistryEntry<Biome> getTopBiome() {
@@ -57,7 +57,7 @@ public class BiomeEntry {
         return priority.map(entries -> List.of(topBiome));
     }
 
-    public int getColor() {
+    public BiomeColor getColor() {
         return color;
     }
 }

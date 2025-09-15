@@ -47,7 +47,7 @@ public class AtlasBiomeSource extends BiomeSource {
         this.mapInfo = mapInfo;
         this.belowDepth = belowDepth;
         for (BiomeEntry entry : this.biomeEntries) {
-            this.biomeToColor.put(entry.getColor(), entry.getTopBiome());
+            this.biomeToColor.put(entry.getColor().rgb(), entry.getTopBiome());
         }
     }
 
