@@ -1,6 +1,6 @@
 {
   "height_map": "minecraft:atlas/map/heightmap",
-  "starting_y": 6,
+  "starting_y": 0,
   "horizontal_scale": 1,
   "vertical_scale": 1
 }

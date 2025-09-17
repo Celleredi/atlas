@@ -1,0 +1,380 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "atlas:atlas",
+    "map_info": "minecraft:overworld",
+    "biome_source": {
+      "type": "atlas:atlas",
+      "aquifer": "minecraft:atlas/map/aquifer",
+      "map_info": "minecraft:overworld",
+      "biome_map": "minecraft:atlas/map/biomes",
+      "default": "minecraft:the_void",
+      "biomes": [
+        {
+          "biome": "minecraft:ocean",
+          "color": "#406CE9"
+        },
+        {
+          "biome": "minecraft:deep_ocean",
+          "color": "#113FC6"
+        },
+        {
+          "biome": "minecraft:warm_ocean",
+          "color": "#3E9CD7"
+        },
+        {
+          "biome": "minecraft:lukewarm_ocean",
+          "color": "#504BC6"
+        },
+        {
+          "biome": "minecraft:deep_lukewarm_ocean",
+          "color": "#1C17B0"
+        },
+        {
+          "biome": "minecraft:cold_ocean",
+          "color": "#4E8AD3"
+        },
+        {
+          "biome": "minecraft:deep_cold_ocean",
+          "color": "#1B4A84"
+        },
+        {
+          "biome": "minecraft:frozen_ocean",
+          "color": "#9BD0ED"
+        },
+        {
+          "biome": "minecraft:deep_frozen_ocean",
+          "color": "#4C98C1"
+        },
+        {
+          "biome": "minecraft:mushroom_fields",
+          "color": "#B9B0E5"
+        },
+
+        {
+          "biome": "minecraft:jagged_peaks",
+          "color": "#EDEBEB"
+        },
+        {
+          "biome": "minecraft:frozen_peaks",
+          "color": "#D4F3FB"
+        },
+        {
+          "biome": "minecraft:stony_peaks",
+          "color": "#a7a7a7"
+        },
+        {
+          "biome": "minecraft:meadow",
+          "color": "#d6ffbc"
+        },
+        {
+          "biome": "minecraft:cherry_grove",
+          "color": "#ffaed1"
+        },
+        {
+          "biome": "minecraft:grove",
+          "color": "#a7caba"
+        },
+        {
+          "biome": "minecraft:snowy_slopes",
+          "color": "#ffffff"
+        },
+        {
+          "biome": "minecraft:windswept_hills",
+          "color": "#758878"
+        },
+        {
+          "biome": "minecraft:windswept_gravelly_hills",
+          "color": "#5c615d"
+        },
+        {
+          "biome": "minecraft:windswept_forest",
+          "color": "#506a53"
+        },
+
+        {
+          "biome": "minecraft:forest",
+          "color": "#2c7b35"
+        },
+        {
+          "biome": "minecraft:flower_forest",
+          "color": "#cf63ad"
+        },
+        {
+          "biome": "minecraft:taiga",
+          "color": "#46916c"
+        },
+        {
+          "biome": "minecraft:old_growth_pine_taiga",
+          "color": "#725135"
+        },
+        {
+          "biome": "minecraft:old_growth_spruce_taiga",
+          "color": "#61311a"
+        },
+        {
+          "biome": "minecraft:snowy_taiga",
+          "color": "#89d7b0"
+        },
+        {
+          "biome": "minecraft:birch_forest",
+          "color": "#cac79b"
+        },
+        {
+          "biome": "minecraft:old_growth_birch_forest",
+          "color": "#888667"
+        },
+        {
+          "biome": "minecraft:dark_forest",
+          "color": "#3e1913"
+        },
+        {
+          "biome": "minecraft:pale_garden",
+          "color": "#4c4d4a"
+        },
+        {
+          "biome": "minecraft:jungle",
+          "color": "#62dc49"
+        },
+        {
+          "biome": "minecraft:sparse_jungle",
+          "color": "#9ee590"
+        },
+        {
+          "biome": "minecraft:bamboo_jungle",
+          "color": "#d3e590"
+        },
+
+        {
+          "biome": "minecraft:river",
+          "color": "#0745f6"
+        },
+        {
+          "biome": "minecraft:frozen_river",
+          "color": "#acd6e5"
+        },
+        {
+          "biome": "minecraft:swamp",
+          "color": "#393c22"
+        },
+        {
+          "biome": "minecraft:mangrove_swamp",
+          "color": "#3c2225"
+        },
+        {
+          "biome": "minecraft:beach",
+          "color": "#e9d7b1"
+        },
+        {
+          "biome": "minecraft:snowy_beach",
+          "color": "#d5d7c6"
+        },
+        {
+          "biome": "minecraft:stony_shore",
+          "color": "#868876"
+        },
+
+        {
+          "biome": "minecraft:plains",
+          "color": "#6abe30"
+        },
+        {
+          "biome": "minecraft:sunflower_plains",
+          "color": "#fff40b"
+        },
+        {
+          "biome": "minecraft:snowy_plains",
+          "color": "#dcfff5"
+        },
+        {
+          "biome": "minecraft:ice_spikes",
+          "color": "#cbdbfc"
+        },
+
+        {
+          "biome": "minecraft:desert",
+          "color": "#d3a055"
+        },
+        {
+          "biome": "minecraft:savanna",
+          "color": "#aba048"
+        },
+        {
+          "biome": "minecraft:savanna_plateau",
+          "color": "#80762a"
+        },
+        {
+          "biome": "minecraft:windswept_savanna",
+          "color": "#958f61"
+        },
+        {
+          "biome": "minecraft:badlands",
+          "color": "#df7126"
+        },
+        {
+          "biome": "minecraft:wooded_badlands",
+          "color": "#954914"
+        },
+        {
+          "biome": "minecraft:eroded_badlands",
+          "color": "#b46f3e"
+        }
+      ],
+      "cave_biomes": [
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "atlas:empty"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              0.8
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              0.7,
+              1
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:lush_caves"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              0.8,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:dripstone_caves"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "atlas:empty"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.375
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              1.1,
+              1.1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:deep_dark"
+        }
+      ],
+      "below_depth": 10
+    },
+    "settings": "atlas:default"
+  }
+}
+
