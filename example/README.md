@@ -13,7 +13,7 @@ First, you need a heightmap source
 
 A heightmap is a greyscale image that describes the elevation at each point in the world. Black (color #000000) is the lowest point,
 and white (color #FFFFFF), is the highest point. Each pixel in the heightmap will correspond to a block in the world, with (x=0, z=0) being the pixel closest to the exact center of the heightmap image.
-Additionally, the template assumes the highest block below sea is grey 127 (color #7F7F7F).
+Additionally, the template assumes the highest block below sea is grey 62 (color #3E3E3E).
 
 A good source for height maps is [GEBCO Gridded Bathymetry Data.](https://download.gebco.net/)
 For our purposes, you'll want download with the GeoTiff Grid format. Be aware that these images are huge, as the scale is approximately 1:463 meters.
