@@ -43,14 +43,14 @@ Alternatively, the [Köppen climate classification map](https://commons.wikimedi
 Again, you'll need some imagine editing software to paint the biome map, but here's some things to watch out for:
 1. Make sure to disable anti-aliasing/use a pixel brush. The mod can only understand exact colors, the blurring caused by anti-aliasing can make the mod confused about what biomes are painted.
 2. Use your heightmap to assist in painting. Depending on your software of choice, you may be able to select pixels at a certain brightnesses, which can make painting coasts or mountain boundaries easier.
-    If your software doesn't have this feature, just make sure to paint land biomes at greys greater than, but not including grey 127.
+    If your software doesn't have this feature, just make sure to paint land biomes at greys greater than, but not including grey 62.
 
 The template data pack specifies the colors used for each biome. The hex codes are found in `data/minecraft/dimension/overworld.json`,
 but the image below also visually shows them
 ![Biomes Legend](BiomesLegend.png)
 
 ## Customizing the dimension data further.
-**You likely don't need to touch the dimension file in `data/minecraft/dimension/overworld.json`**, but if you want further customization, the follow describes every field.
+**You likely don't need to touch the dimension file in `data/minecraft/dimension/overworld.json`**, but if you want further customization, the following describes every field.
 
 *Note: This is verbatim from the original README*
 
